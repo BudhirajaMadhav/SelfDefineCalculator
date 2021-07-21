@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">SelfDefineCalculator</string>
+    <string name="enter_second_number">Enter second number</string>
+    <string name="enter_first_number">Enter first number</string>
+    <string name="mul">Multiplication</string>
+    <string name="div">Division</string>
+    <string name="add">Addition</string>
+    <string name="sub">Subtraction</string>
+    <string name="calculate">Calculate</string>
     <string name="x_y">x + y =</string>
     <string name="_67">67</string>
 </resources>
