@@ -7,28 +7,26 @@
     tools:context=".ResultActivity">
 
     <TextView
+        android:id="@+id/question"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:id="@+id/question"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="150dp"
-        android:text="@string/x_y"
         android:gravity="center"
+        android:text="@string/x_y"
         android:textSize="40sp"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/result"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:id="@+id/result"
-        app:layout_constraintTop_toBottomOf="@id/question"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="80dp"
-        android:text="@string/_67"
         android:gravity="center"
+        android:text="@string/_67"
         android:textSize="50sp"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/question" />
 </androidx.constraintlayout.widget.ConstraintLayout>

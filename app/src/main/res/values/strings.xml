@@ -9,4 +9,5 @@
     <string name="calculate">Calculate</string>
     <string name="x_y">x + y =</string>
     <string name="_67">67</string>
+    <string name="question_view">%s %s %s =</string>
 </resources>
